@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/learn_observables'),
+      dir: require('path').join(__dirname, './coverage/rxjs_observables'),
       subdir: '.',
       reporters: [
         { type: 'html' },
